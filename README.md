@@ -1,6 +1,10 @@
-# Github project landing page
+# One-Day-Only (OneDly) Project Theme
 
-Github landing page is a theme for [Hugo](http://gohugo.io) to create landing pages for github projects. This theme is based on [landing-page-hugo](https://github.com/crakjie/landing-page-hugo)
+This [Hugo](http://gohugo.io) theme is for documenting One-Day-Only (OneDly) projects. The theme is based on [Github project Page](https://themes.gohugo.io/github-project-landing-page/).
+
+
+...
+
 
 # Demo
 A demo can be find here [Swiftline](http://swiftline.github.io)
