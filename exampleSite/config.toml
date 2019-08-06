@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://example.com/"
 languageCode = "en-us"
 title = "OneDly Project"
 theme = "onedly"
