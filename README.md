@@ -13,7 +13,7 @@ A demo can be found here [...](https://github.com/cdeck3r/OneDly-Theme)
 * Social media links as buttons at the top of the page
 * Social media sharing links as buttons at the end of the page
 * All posts on a single page as separated sections
-* Post ordering by sec parameter, instead of date
+* Post ordering by `sec` parameter in post's front matter, instead of date
 
 
 # Quick Start
