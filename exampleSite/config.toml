@@ -5,9 +5,9 @@ theme = "onedly"
 
 [params]
     description = "One-Day-Only (OneDly) project documentation."
-    author_url = "http://cdeck3r.com"
+    author_url = "//cdeck3r.com"
     author_name = "cdeck3r"
-    project_url = "https://github.com/cdeck3r/OneDly-Theme"
+    project_url = "//github.com/cdeck3r/OneDly-Theme"
     github_project_name = "OneDly"
     github_user_name = "cdeck3r"
 
