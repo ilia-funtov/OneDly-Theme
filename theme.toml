@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/cdeck3r/OneDly-Theme/blob/master/LICENSE.md"
 description = "Theme for documenting One-Day-Only (OneDly) projects."
 homepage = "https://github.com/cdeck3r/OneDly-Theme"
-tags = ["documentation", "landing page", "opensource"]
+tags = ["documentation", "landing page", "opensource", "single page"]
 features = ["github", "images" ]
 min_version= 0.1
 
