@@ -1,14 +1,14 @@
-name = "Github project Page"
+name = "OneDly Project"
 license = "MIT"
-licenselink = "https://github.com/nsomar/github-project-landing-page/blob/master/LICENSE.md"
-description = "An easy to use landing page theme for github hosted project."
-homepage = "https://github.com/nsomar/github-project-landing-page"
-tags = ["company", "products", "landing page", "opensource"]
+licenselink = "https://github.com/cdeck3r/OneDly-Theme/blob/master/LICENSE.md"
+description = "Theme for documenting OneDly project."
+homepage = "https://github.com/cdeck3r/OneDly-Theme"
+tags = ["documentation", "landing page", "opensource"]
 features = ["github", "images" ]
 min_version= 0.1
 
 [author]
-     name = "Omar Abdelhafith"
+     name = "Christian Decker"
 
 [original]
     author =  "Omar Abdelhafith"

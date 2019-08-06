@@ -1,13 +1,13 @@
-<section id="services">
+<section id="main">
 
 <!-- Page Content -->
- {{ range $index, $element :=  where .Data.Pages "Section" "in" "post" }}
+{{ range $index, $element :=  where (.Data.Pages.ByParam "sec") "Section" "in" "post" }}
     {{ if modBool $index 2 }}
     <div class="content-section-a">
     {{ else }}
     <div class="content-section-b">
     {{ end }}
-
+   
         <div class="container">
 
             <div class="row">

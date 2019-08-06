@@ -14,15 +14,20 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href={{ .Site.Params.project_url }}>Github</a>
+				{{ if isset .Site.Params "project_url" }}
+				<li>
+                    <a href={{ .Site.Params.project_url }}>
+                    Github
+                    </a>
                 </li>
+				{{ end }}
+				{{ if isset .Site.Params "author_url" }}
                 <li>
-                    <a class="page-scroll" href={{ .Site.Params.project_documentation }}>Docs</a>
+                    <a href={{ .Site.Params.author_url }}>
+                    {{ .Site.Params.author_name }}
+                    </a>
                 </li>
-                <li>
-                    <a class="page-scroll" href={{ .Site.Params.author_url }}>NSOmar</a>
-                </li>
+				{{ end }}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

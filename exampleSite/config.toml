@@ -1,14 +1,28 @@
-baseurl = "http://swiftline.github.io"
+baseurl = ""
 languageCode = "en-us"
-title = "Swiftline"
+title = "OneDly Project"
+theme = "onedly"
 
 [params]
-    description = "Amazing project."
-    author_url = "http://nsomar.com"
-    project_url = "http://github.com/swiftline/swiftline"
-    project_documentation = "http://swiftline.github.io/docs"
-    github_project_name = "swiftline"
-    github_user_name = "swiftline"
+    description = "One-Day-Only (OneDly) project documentation."
+    author_url = "http://cdeck3r.com"
+    author_name = "cdeck3r"
+    project_url = "https://github.com/cdeck3r/OneDly-Theme"
+    github_project_name = "OneDly"
+    github_user_name = "cdeck3r"
+
+    # Sets Social Share links to appear on posts
+    socialShare          = true
+    # Sets specific share to appear on posts (default behavior is to appear)
+    socialShareTwitter   = true
+    socialShareGoogleplus = true
+    socialShareFacebook  = true
+    socialShareReddit    = true
+    socialShareLinkedin  = true
+    socialShareStumbleupon = true
+    socialSharePinterest = true
+    socialShareEmail = true
+
 
     first_color="#f8f8f8"
     first_border_color="#e7e7e7"
@@ -22,3 +36,53 @@ title = "Swiftline"
 
     header_link_color="#777"
     header_link_hover_color="rgb(51, 51, 51)"
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+    # Coding Communities
+    github           = "cdeck3r/OneDly-Theme"
+    gitlab           = ""
+    stackoverflow    = "" # User Number
+    bitbucket        = ""
+    jsfiddle         = ""
+    codepen          = ""
+    # Visual Art Communities
+    deviantart       = ""
+    flickr           = ""
+    behance          = ""
+    dribbble         = ""
+    # Publishing Communities
+    wordpress        = ""
+    medium           = ""
+    # Professional/Business Oriented Communities
+    linkedin         = ""
+    linkedin_company = ""
+    foursquare       = ""
+    xing             = ""
+    slideshare       = ""
+    # Social Networks
+    facebook         = ""
+    googleplus       = ""
+    reddit           = ""
+    quora            = ""
+    youtube          = "channel/UCZ5wNVV_E6AA3L3C-mvqwSA"
+    vimeo            = ""
+    whatsapp         = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat         = ""
+    qq             = "" # User ID Number
+    instagram        = ""
+    tumblr           = ""
+    twitter          = "cdeck3r"
+    skype            = ""
+    snapchat         = ""
+    pinterest        = ""
+    telegram         = ""
+    vine             = ""
+    googlescholar    = ""
+    orcid            = ""
+    researchgate     = ""
+    # Email
+    email = "info@cdeck3r.com"
