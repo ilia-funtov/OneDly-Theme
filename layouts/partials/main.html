@@ -2,7 +2,7 @@
 
 <!-- Page Content -->
 {{ range $index, $element :=  where (.Data.Pages.ByParam "sec") "Section" "in" "post" }}
-    {{ if modBool $index 2 }}
+	{{ if modBool $index 2 }} 
     <div class="content-section-a">
     {{ else }}
     <div class="content-section-b">
