@@ -3,15 +3,17 @@ languageCode = "en-us"
 title = "OneDly Project"
 theme = "onedly"
 
+#
+# Personalization params
+#
 [params]
+    # project specific params
     description = "One-Day-Only (OneDly) project documentation."
     author_url = "//cdeck3r.com"
     author_name = "cdeck3r"
     project_url = "//github.com/cdeck3r/OneDly-Theme"
-    github_project_name = "OneDly"
-    github_user_name = "cdeck3r"
 
-    # Sets Social Share links to appear on posts
+    # social share links to appear at the end
     socialShare          = true
     # Sets specific share to appear on posts (default behavior is to appear)
     socialShareTwitter   = true
@@ -23,7 +25,7 @@ theme = "onedly"
     socialSharePinterest = true
     socialShareEmail = true
 
-
+    # theme's color scheme
     first_color="#f8f8f8"
     first_border_color="#e7e7e7"
     first_text_color="#333"
@@ -37,9 +39,10 @@ theme = "onedly"
     header_link_color="#777"
     header_link_hover_color="rgb(51, 51, 51)"
 
+#
 # Sets Social Media icons to appear and link to your account. Value should be your
-# username unless otherwise noted. These are the icons affected by socialAppearAtTop
-# and socialAppearAtBottom.
+# username unless otherwise noted. Icons appear at the top of the page.
+#
 [social]
     # Coding Communities
     github           = "cdeck3r/OneDly-Theme"
@@ -86,3 +89,47 @@ theme = "onedly"
     researchgate     = ""
     # Email
     email = "info@cdeck3r.com"
+
+#
+# Adjust privacy settings
+# See: https://gohugo.io/about/hugo-and-gdpr/
+#
+[privacy]
+    [privacy.disqus]
+      disable = true
+
+    [privacy.googleAnalytics]
+      disable = true
+      anonymizeIP = true
+      respectDoNotTrack = true
+      useSessionStorage = true
+
+    [privacy.instagram]
+      disable = false
+      simple = true
+
+    [privacy.twitter]
+      disable = false
+      enableDNT = true
+      simple = true
+
+    [privacy.vimeo]
+      disable = true
+      simple = true
+
+    [privacy.youtube]
+      disable = false
+      privacyEnhanced = true
+
+#
+# In simple mode for Instagram and a site styled with Bootstrap 4, 
+# you may want to disable the inlines styles provided by Hugo:
+# See: https://gohugo.io/about/hugo-and-gdpr/
+#
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
