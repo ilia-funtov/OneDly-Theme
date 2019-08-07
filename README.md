@@ -80,7 +80,7 @@ Examples
 
 ### Section Ordering
 
-The project documentation may consists of several files indicating different sections. All files need to be placed in `myproject/content/post` directory. 
+The project documentation may consists of several files indicating different sections. All files need to be placed in `myproject/content/post` directory. An example project content structure can be found in `exampleSite/content`. Fixed sections reside outside the `post` directory.
 
 One may create a new section using `hugo new post/about.md`. It is recommended to start with an About section. In the file's front matter specify 
 
