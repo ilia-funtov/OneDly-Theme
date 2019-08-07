@@ -2,10 +2,26 @@
 
 This [Hugo](http://gohugo.io) theme is for documenting One-Day-Only (OneDly) projects. The theme renders a single page and is based on [Github project Page](https://themes.gohugo.io/github-project-landing-page/).
 
-# Demo
+# About 
+
+One-Day-Only or OneDly projects help to acquire a new skill or to complete a task within a short timeframe. It limits the available time and combines it with defined objectives. This situation forces you to focus on the relevant elements in order to successfully complete a task or project. Please note, the idea is not to pack as much work as you can do within a workday. At the end you will find answers for the following questions 
+
+* What were the relevant elements for success?
+* How good are you in estimating your work effort?
+* What were road blocks or even showstoppers you haven't forseen even in a short-term project horizon?
+* What are typical reoccuring interuptions and distractions during your work?
+* What is your personal pace when working intensly on a task or project?
+
+This will certainly generate some personal insights and improve your activities in future projects.
+
+# Demo and Examples
+
 A demo can be found here [...](https://github.com/cdeck3r/OneDly-Theme)
 
+Example files structuring a project are stored in theme's `exampleSite/content` directory. The `exampleSite` directory also contains a `config.toml` with default parameter settings.
+
 # Screenshot
+
 ![screenshot](https://github.com/cdeck3r/OneDly-Theme/blob/master/images/screenshot.png)
 
 # Notable Differences
@@ -15,13 +31,14 @@ A demo can be found here [...](https://github.com/cdeck3r/OneDly-Theme)
 * All posts on a single page as separated sections
 * Post ordering by `sec` parameter in post's front matter, instead of date
 
-
 # Quick Start
 
 1. install [Hugo](http://gohugo.io) 
 1. Create a new site: `hugo new site myproject`
-1. Change dir: `cd myproject`
+1. Change dir: `cd myproject`. We now assume this directory as _current_ dir
 1. Add the OneDly theme: `git submodule add https://github.com/cdeck3r/OneDly-Theme.git themes/onedly`
+1. Copy `themes/onedly/exampleSite/config.toml` into current dir 
+1. Copy example files from `themes/onedly/exampleSite/content` in project's `content` directory.
 1. Start server: `hugo server -D -t onedly` 
 
 # Customization
