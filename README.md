@@ -14,6 +14,15 @@ One-Day-Only or OneDly projects help to acquire a new skill or to complete a tas
 
 This will certainly generate some personal insights and improve your activities in future projects.
 
+# Features
+
+* Social media links as buttons at the top of the page
+* Social media sharing links as buttons at the end of the page
+* All posts on a single page as separated sections
+* Post ordering by `sec` parameter in post's front matter, instead of date
+* Imprint and GDPR examples pages 
+* Examples for project structure included
+
 # Demo and Examples
 
 A demo can be found here [...](https://github.com/cdeck3r/OneDly-Theme)
@@ -23,13 +32,6 @@ Example files structuring a project are stored in theme's `exampleSite/content` 
 # Screenshot
 
 ![screenshot](https://github.com/cdeck3r/OneDly-Theme/blob/master/images/screenshot.png)
-
-# Notable Differences
-
-* Social media links as buttons at the top of the page
-* Social media sharing links as buttons at the end of the page
-* All posts on a single page as separated sections
-* Post ordering by `sec` parameter in post's front matter, instead of date
 
 # Quick Start
 
@@ -44,6 +46,8 @@ Example files structuring a project are stored in theme's `exampleSite/content` 
 # Customization
 
 Check [config.toml](https://github.com/cdeck3r/OneDly-Theme/blob/master/exampleSite/config.toml) for available configuration. Below is a description for each of them.
+
+**Imprint & GDRP:** Both declarations are stored in `content/imprint-gdpr`. The links are only displayed, if the files exist. So, you do not have dead links.
 
 ### Project Specification Parameters
 
@@ -76,7 +80,7 @@ Examples
 
 ### Section Ordering
 
-The project documentation may consists of several files indicating different sections. All files need to be placed in `myproject\content\post` directory. 
+The project documentation may consists of several files indicating different sections. All files need to be placed in `myproject/content/post` directory. 
 
 One may create a new section using `hugo new post/about.md`. It is recommended to start with an About section. In the file's front matter specify 
 
