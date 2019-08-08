@@ -13,6 +13,9 @@ theme = "onedly"
     author_name = "cdeck3r"
     project_url = "//github.com/cdeck3r/OneDly-Theme"
 
+    # optionally specify where the content is
+    # mainSections = ["post"] 
+
     # social share links to appear at the end
     socialShare          = true
     # Sets specific share to appear on posts (default behavior is to appear)

@@ -80,7 +80,16 @@ Examples
 
 ### Section Ordering
 
-The project documentation may consists of several files indicating different sections. All files need to be placed in `myproject/content/post` directory. An example project content structure can be found in `exampleSite/content`. Fixed sections reside outside the `post` directory.
+The project documentation may consists of several files indicating different documentation sections. In Hugo-Speak these sections are pages stored in separate `.md` files. All files need to be placed in `myproject/content/post` directory. An example project content structure can be found in `exampleSite/content`. 
+
+Hugo uses the [content directory with the most pages](https://gohugo.io/functions/where/#mainsections) as source for displaying your documentation. You may explicitly set the `post` directory or any other directory containing your project documentation as well as add additional directories in the `config.toml`. In the example below the content sources from the `post` and the `other` directories.
+
+```
+[params]
+    ...
+    # optionally specify where the content is
+    # mainSections = ["post", "other"] 
+```
 
 One may create a new section using `hugo new post/about.md`. It is recommended to start with an About section. In the file's front matter specify 
 
