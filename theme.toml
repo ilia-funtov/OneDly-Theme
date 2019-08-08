@@ -5,7 +5,7 @@ description = "Theme for documenting One-Day-Only (OneDly) projects."
 homepage = "https://github.com/cdeck3r/OneDly-Theme"
 tags = ["documentation", "landing page", "opensource", "single page"]
 features = ["github", "images" ]
-min_version= 0.48
+min_version= "0.48"
 
 [author]
      name = "Christian Decker"
