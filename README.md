@@ -25,9 +25,9 @@ This will certainly generate some personal insights and improve your activities 
 
 # Demo and Examples
 
-A demo can be found here [...](https://github.com/cdeck3r/OneDly-Theme)
+Have a look at the [demo](http://cdeck3r.com/OneDly-Theme/).
 
-Example files structuring a project are stored in theme's `exampleSite/content` directory. The `exampleSite` directory also contains a `config.toml` with default parameter settings.
+The demo uses examples files. They structure a project and are stored in the theme's `exampleSite/content` directory. The `exampleSite` directory also contains a `config.toml` with default parameter settings.
 
 # Screenshot
 
