@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OneDly Theme</title>
+    <title>OneDly Project</title>
     <link>http://cdeck3r.com/OneDly-Theme/imprint-gdpr/</link>
-    <description>Recent content on OneDly Theme</description>
+    <description>Recent content on OneDly Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <language>en-us</language>
     <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://cdeck3r.com/OneDly-Theme/imprint-gdpr/index.xml" rel="self" type="application/rss+xml" />
@@ -28,12 +27,9 @@
       
       <guid>http://cdeck3r.com/OneDly-Theme/imprint-gdpr/imprint/</guid>
       <description>Information according to § 5 TMG
-first and last name
-address
-Contact: Phone: phone number
-E-Mail: e-mail address
-Responsible for content according to § 55 Abs. 2 RStV: first and last name
-address
+first and last name address
+Contact: Phone: phone number E-Mail: e-mail address
+Responsible for content according to § 55 Abs. 2 RStV: first and last name address
 Disclaimer: Content Liability The contents of our pages were created with great care. However, we can not assume any liability for the accuracy, completeness and timeliness of the content. As a service provider we are responsible according to § 7 Abs.</description>
     </item>
     

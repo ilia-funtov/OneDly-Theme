@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on OneDly Theme</title>
+    <title>Sections on OneDly Project</title>
     <link>http://cdeck3r.com/OneDly-Theme/post/</link>
-    <description>Recent content in Posts on OneDly Theme</description>
+    <description>Recent content in Sections on OneDly Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <language>en-us</language>
     <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://cdeck3r.com/OneDly-Theme/post/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +28,7 @@
       <guid>http://cdeck3r.com/OneDly-Theme/post/conclusion/</guid>
       <description>This section concludes the project.
 Summary The list below displays the achieved objectives:
-To be able to setup a Raspi from scratch To be able to develop a simple command line software To enable a software to automatically restart after shutdown / power off To enable resilience by monitoring and restarting software processes remotely  Conclusion I successfully acquired new development skills for raspi computers. They provide a valuable contribution to my CV.</description>
+ To be able to setup a Raspi from scratch To be able to develop a simple command line software To enable a software to automatically restart after shutdown / power off To enable resilience by monitoring and restarting software processes remotely  Conclusion I successfully acquired new development skills for raspi computers. They provide a valuable contribution to my CV.</description>
     </item>
     
     <item>
@@ -58,7 +57,7 @@ To be able to setup a Raspi from scratch To be able to develop a simple command 
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>http://cdeck3r.com/OneDly-Theme/post/project/</guid>
-      <description> This section defines concisely the basic project frame.
+      <description>This section defines concisely the basic project frame.
 Goal Improve my CV by adding new state-of-the-art development skills.
 Approach &amp;amp; Objectives  To be able to setup a Raspi from scratch To be able to develop a simple command line software To enable a software to automatically restart after shutdown / power off To enable resilience by monitoring and restarting software processes remotely  </description>
     </item>
@@ -80,7 +79,6 @@ Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum
       
       <guid>http://cdeck3r.com/OneDly-Theme/post/images/</guid>
       <description>&lt;p&gt;&lt;em&gt;Source: content taken from &lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34;&gt;hugoBasicExample&lt;/a&gt;. File: &lt;code&gt;rich-content.md&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
