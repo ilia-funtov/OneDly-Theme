@@ -8,7 +8,7 @@
 	<meta name="description" content="{{ with .Description }}
 		{{ . }}
 		{{ else }}
-		{{if .IsPage}}{{ .Summary }}
+		{{if .IsPage}}{{ .Summary }}    
 		{{ else }}{{ with .Site.Params.description }}
 		{{ . }}
 		{{ end }}{{ end }}{{ end }}"> 
@@ -38,7 +38,7 @@
     <![endif]-->
 
     <style>
-    {{ printf "%v" (partial "template.css" . ) | safeCSS  }}
+    {{ printf "%v" (partial "template.css" . ) | safeCSS  }} 
   </style>
 
 </head>
