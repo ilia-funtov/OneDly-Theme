@@ -16,7 +16,7 @@
                     <div class="clearfix"></div>
                     -->
                     <h2 class="section-heading">{{ .Title }}</h2>
-                    {{ .Content }}
+                    {{ replace .Content "<table>" "<table class='table table-striped table-hover'>" | safeHTML }}
                 </div>
             </div>
 
