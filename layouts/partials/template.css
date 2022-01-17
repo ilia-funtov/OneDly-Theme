@@ -34,3 +34,5 @@ body {
 .header-container h4 {
   color: {{ .Site.Params.header_text_color }};
 }
+
+img {max-width:100%}
